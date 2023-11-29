@@ -1,0 +1,53 @@
+Question3 - What are loops, and why do we need them? Explain different types of loops with their syntax and examples.
+
+# Ans - Loops in JavaScript are structures that allow you to repeatedly execute a block of code as long as a specified condition is true. They are essential for automating repetitive tasks and iterating over data structures. JavaScript supports several types of loops, including -  a). for, b). while, and c). do-while, d). for-in, e). for-of
+
+a). for loop :- The for loop is used when the number of iterations is known or predetermined.
+
+# Synatx of for loop -
+
+for (initialization; condition; increment/decrement) {
+    // Code to be executed in each iteration
+}
+
+b). while loop :- The while loop is used when the number of iterations is not known beforehand, and the loop continues as long as the specified condition is true.
+
+# syntax of while loop -
+
+while (condition) {
+    // Code to be executed in each iteration
+}
+
+c). do-while loop :- The do-while loop is similar to the while loop, but it guarantees that the code inside the loop will be executed at least once, as the condition is checked after the loop body.
+
+# syntax of do-while loop -
+
+do {
+    // Code to be executed in each iteration
+} while (condition);
+
+d). for-in loop :- In JavaScript, the for...in loop is used to iterate over the enumerable properties of an object. It is particularly useful for iterating over the properties of an object, such as the keys of an array or the properties of an object literal.
+
+# syntax of for-in loop -
+
+for (variable in object) {
+    // code to be executed
+}
+
+# variable: A variable that will be assigned the current property name (or index in the case of arrays) in each iteration.
+
+# object: The object over whose properties the loop is iterating.
+
+e). for-of loop :- The for...of loop in JavaScript is used to iterate over the values of an iterable object, such as an array, string, map, set, etc. Unlike the for...in loop, which iterates over the keys or indices, the for...of loop directly provides the values. 
+
+# syntax of for-of loop -
+
+for (variable of iterable) {
+    // code to be executed
+}
+
+# variable: A variable that will be assigned the current value in each iteration.
+
+# iterable: The iterable object over whose values the loop is iterating.
+
+# Loops are essential in programming because they help automate repetitive tasks and iterate over collections of data. They make code more concise and efficient, especially when dealing with arrays, objects, or other iterable structures. Loops enable you to perform the same set of operations on each item in a collection or repeat a block of code until a certain condition is met. This makes programs more dynamic and capable of handling varying amounts of data.
